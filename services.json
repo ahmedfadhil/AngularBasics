@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Hardware Repair",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut cursus purus, vitae eleifend felis. Phasellus ac malesuada tellus. Nulla hendrerit neque sit amet ante volutpat, in commodo arcu rutrum. Etiam id ipsum fringilla, porta nisi eu, varius dolor. Donec congue tortor eu elit accumsan semper. Mauris convallis dolor tincidunt, convallis libero id, semper dui. In pellentesque ullamcorper odio sit amet varius. Aenean ullamcorper, quam vel euismod maximus, justo orci eleifend neque, id posuere lorem nibh nec elit. Nulla urna augue, vestibulum vel lacus eu, ultrices efficitur sapien. Nullam mattis, elit eu dignissim pretium, enim nibh molestie mi, et feugiat nisl leo a purus. Nullam placerat lacus imperdiet fermentum dictum.",
+    "image": "computer.png"
+  },
+  {
+    "id": "2",
+    "name": "Virus Removal",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut cursus purus, vitae eleifend felis. Phasellus ac malesuada tellus. Nulla hendrerit neque sit amet ante volutpat, in commodo arcu rutrum. Etiam id ipsum fringilla, porta nisi eu, varius dolor. Donec congue tortor eu elit accumsan semper. Mauris convallis dolor tincidunt, convallis libero id, semper dui. In pellentesque ullamcorper odio sit amet varius. Aenean ullamcorper, quam vel euismod maximus, justo orci eleifend neque, id posuere lorem nibh nec elit. Nulla urna augue, vestibulum vel lacus eu, ultrices efficitur sapien. Nullam mattis, elit eu dignissim pretium, enim nibh molestie mi, et feugiat nisl leo a purus. Nullam placerat lacus imperdiet fermentum dictum.",
+    "image": "computer.png"
+  },
+  {
+    "id": "3",
+    "name": "System Tuneup",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut cursus purus, vitae eleifend felis. Phasellus ac malesuada tellus. Nulla hendrerit neque sit amet ante volutpat, in commodo arcu rutrum. Etiam id ipsum fringilla, porta nisi eu, varius dolor. Donec congue tortor eu elit accumsan semper. Mauris convallis dolor tincidunt, convallis libero id, semper dui. In pellentesque ullamcorper odio sit amet varius. Aenean ullamcorper, quam vel euismod maximus, justo orci eleifend neque, id posuere lorem nibh nec elit. Nulla urna augue, vestibulum vel lacus eu, ultrices efficitur sapien. Nullam mattis, elit eu dignissim pretium, enim nibh molestie mi, et feugiat nisl leo a purus. Nullam placerat lacus imperdiet fermentum dictum.",
+    "image": "computer.png"
+  }
+]
