@@ -15,15 +15,21 @@ var app = angular.module("computer", ['ngRoute'])
         }).otherwise({redirectTo: '/main'})
     }])
 
-    .controller('MainCtrl', ['$scope','$http', function ($scope, $http) {
-        $http.get('services.json').then(function(response){
-        $scope.services = response.data
+    .controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
+        $http.get('services.json').then(function (response) {
+            $scope.services = response.data
         });
 
     }])
-    .controller('ServicesCtrl', ['$scope', function ($scope) {
+    .controller('ServicesCtrl', ['$scope', '$http', function ($scope, $http) {
+        $http.get('services.json').then(function (response) {
+            $scope.services = response.data
+        });
 
     }])
-    .controller('ContactCtrl', ['$scope', function ($scope) {
+    .controller('ContactCtrl', ['$scope', '$http', function ($scope, $http) {
+        $http.get('locations.json').then(function (response) {
+            $scope.locations = response.data
+        });
 
     }]);

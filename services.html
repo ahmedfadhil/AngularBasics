@@ -1,58 +1,17 @@
 <h2>Services</h2>
-<div class="row service">
-    <div class="col-lg-2">
-        <img src="https://img0.etsystatic.com/074/1/10990691/il_570xN.807851386_c0q9.jpg">
-    </div>
+<div ng-repeat="service in services">
+    <div class="row service">
+        <div class="col-lg-2">
+            <img ng-src="{{service.image}}">
+        </div>
 
-    <div class="col-lg-10">
-        <h3>Hardware Repair</h3>
-        <p>
-            Donec et fringilla ante. Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas. Nam vehicula tellus vel quam tempus, ac pretium leo ultrices. Ut velit
-            mi, auctor vel auctor et, condimentum sed purus. Suspendisse in semper sapien. Phasellus vel
-            tincidunt lorem. Donec varius, nulla vitae efficitur sodales, ex lorem varius urna, tempus
-            posuere urna mi vel lectus. Praesent eget hendrerit erat. Duis a diam mi. Nam dictum luctus
-            turpis vitae tempor. Sed in velit sem. Aenean at feugiat magna, porttitor suscipit mi. Aenean
-            vel elit nisl.
-        <p><a class="btn btn-primary" href="contact.html" role="button">Contact &raquo;</a></p>
-        </p>
+        <div class="col-lg-10">
+            <h3>{{service.name}}</h3>
+            <p>
+                {{service.description}}
+            <p><a class="btn btn-primary" href="contact.html" role="button">Contact &raquo;</a></p>
+            </p>
+        </div>
     </div>
 </div>
-<div class="row service">
-    <div class="col-lg-2">
-        <img src="https://img0.etsystatic.com/074/1/10990691/il_570xN.807851386_c0q9.jpg">
-    </div>
 
-    <div class="col-lg-10">
-        <h3>Hardware Repair</h3>
-        <p>
-            Donec et fringilla ante. Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas. Nam vehicula tellus vel quam tempus, ac pretium leo ultrices. Ut velit
-            mi, auctor vel auctor et, condimentum sed purus. Suspendisse in semper sapien. Phasellus vel
-            tincidunt lorem. Donec varius, nulla vitae efficitur sodales, ex lorem varius urna, tempus
-            posuere urna mi vel lectus. Praesent eget hendrerit erat. Duis a diam mi. Nam dictum luctus
-            turpis vitae tempor. Sed in velit sem. Aenean at feugiat magna, porttitor suscipit mi. Aenean
-            vel elit nisl.
-        <p><a class="btn btn-primary" href="contact.html" role="button">Contact &raquo;</a></p>
-        </p>
-    </div>
-</div>
-<div class="row service">
-    <div class="col-lg-2">
-        <img src="https://img0.etsystatic.com/074/1/10990691/il_570xN.807851386_c0q9.jpg">
-    </div>
-
-    <div class="col-lg-10">
-        <h3>Hardware Repair</h3>
-        <p>
-            Donec et fringilla ante. Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas. Nam vehicula tellus vel quam tempus, ac pretium leo ultrices. Ut velit
-            mi, auctor vel auctor et, condimentum sed purus. Suspendisse in semper sapien. Phasellus vel
-            tincidunt lorem. Donec varius, nulla vitae efficitur sodales, ex lorem varius urna, tempus
-            posuere urna mi vel lectus. Praesent eget hendrerit erat. Duis a diam mi. Nam dictum luctus
-            turpis vitae tempor. Sed in velit sem. Aenean at feugiat magna, porttitor suscipit mi. Aenean
-            vel elit nisl.
-        <p><a class="btn btn-primary" href="contact.html" role="button">Contact &raquo;</a></p>
-        </p>
-    </div>
-</div>

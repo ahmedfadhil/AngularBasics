@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "Lynn location",
+    "street_address": "55 Western Ave",
+    "city": "Lynn",
+    "state": "Ma",
+    "zip": "34234",
+    "phone": "123-435-4323"
+  },
+  {
+    "id": "2",
+    "name": "New York location",
+    "street_address": "55 Western Ave",
+    "city": "Rongester",
+    "state": "NY",
+    "zip": "34234",
+    "phone": "123-435-4323"
+  },
+  {
+    "id": "3",
+    "name": "Lynn location",
+    "street_address": "55 Western Ave",
+    "city": "Lynn",
+    "state": "Ma",
+    "zip": "34234",
+    "phone": "123-435-4323"
+  }
+]
